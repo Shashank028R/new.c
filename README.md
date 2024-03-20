@@ -1,2 +1,2 @@
 # new.c
-<a href = "">Resume</a>
+<a href = "newResume.html">Resume</a>
