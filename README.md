@@ -1,1 +1,115 @@
-# new.c
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        header
+        {
+            background-color: orange;
+            text-align: center;
+            padding: 10px;
+            margin-left: 35%;
+            margin-right: 35%;
+            margin-bottom: 50px;
+            border-radius: 40px;
+            box-shadow: 8px 8px 10px rgba(0,0,0,0.8);
+        }
+        .personbox
+        {
+            width: 150px;
+            height: 180px;
+            box-shadow: 8px 8px 10px rgba(0,0,0,0.4);
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .container
+        {
+            background-color: white;
+            max-width: 900px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            border-radius: 10px;
+
+        }
+        .section h2
+        {
+            border-bottom: 2px solid #333;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body style="background-color: aliceblue;">
+    <br><header><h1>Resume</h1></header>
+    <div class = "container">
+        <section class = "section">
+            <a href="C:\Users\shash\OneDrive - Google\Html\Photos\Shashank.jpg" target="_blank">
+                <img class = "personbox"src="C:\Users\shash\OneDrive - Google\Html\Photos\Shashank.jpg">
+            </a>
+            <h3>Shashank Kumar</h3>
+            <u><b>Email Id</u>:-</b>
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">  shashankmuz3@gmail.com</a>
+            <p><u><b>Mobile No.</b></u>  9304923385</p>
+        </section>
+
+        <section class="section">
+            <h2>Career Objective</h2>
+            <p>I would like to be a part of an organization where i could use and enhance my knowledge and talent for the development of both organizations and myself.</p>
+        </section>
+
+        <section class="section">
+            <h2>Academic profile</h2>
+            <table class="table table-bordered">
+              <tr>
+                <th> Course </th>
+                <th> Name of College </th>
+                <th> Board/University</th>
+                <th> % C.G.P.A </th>
+                <th> Year of Passing</th>
+              </tr>  
+              <tr>
+                <td> B.Tech </td>
+                <td> School Of Engineering </td>
+                <td> Dev Bhoomi Uttrakhand University </td>
+                <td> 8.63 </td>
+                <td> 1st Sem </td>
+              </tr>
+              <tr>
+                <td> 10+2 </td>
+                <td> Langat Singh College </td>
+                <td> BSEB </td>
+                <td> 72.6% </td>
+                <td> 2023 </td>
+              </tr>
+              <tr>
+                <td> 10 </td>
+                <td> L.P Shahi College </td>
+                <td> BSEB </td>
+                <td> 68.4% </td>
+                <td> 2021 </td>
+              </tr>
+            </table>
+        </section>
+
+        <section class = "section">
+            <h2>Technical Skill</h2>
+            <li> C Language </li>
+            <li> Java Language </li>
+            <li> Python Language </li>
+            <li> Html </li>
+        </section>
+        <section class="section">
+            <h2>Projects</h2>
+            <p> There are many projects in which i work on</p>
+            <li><a href = "Thumbnail.html" target="_blank">Gallery</a></li>
+        </section>
+    </div>
+    
+    
+</body>
+</html>
